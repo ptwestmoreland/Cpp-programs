@@ -102,7 +102,7 @@ int main() {
             homework_score_total = score + homework_score_total; //keeps track of total hw grade
             number_of_homework_scores++; //tracks number of hw entries throughout loop
         } else if (category == "lw") {
-            if((score == 1.0) < 0.00001){ //inner if statement
+            if((score == 1.0)){ //inner if statement
                total_lw_score = total_lw_score + 100.0; //give 100 to total score for each complete lw
                number_of_lw++; //tracks lw
 
