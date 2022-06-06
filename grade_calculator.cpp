@@ -132,19 +132,19 @@ int main() {
     variable that keeps up with the number of entries, must be
     set to not equal 0. */
 
-    if(num_engage_scores == 0.0){
+    if(num_engage_scores == 0){
         num_engage_scores++; //sets it equal to 1, dividing by 1 will not change the value
     }
-    if(num_reading_scores == 0.0){
+    if(num_reading_scores == 0){
         num_reading_scores++;
     }
-    if(number_of_exams == 0.0){
+    if(number_of_exams == 0){
         number_of_exams++;
     }
-    if(number_of_lw == 0.0){
+    if(number_of_lw == 0){
         number_of_lw++;
     }
-    if(number_of_homework_scores == 0.0){
+    if(number_of_homework_scores == 0){
         number_of_homework_scores++;
     }
 
