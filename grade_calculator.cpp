@@ -123,7 +123,7 @@ int main() {
 
         // get the next line from standard input
         getline(cin, line);
-    } //end file processing loop
+    } //end processing loop
 
 
     /*averages are computed as total divided by the number of entries
@@ -179,7 +179,7 @@ int main() {
     if(reading >= 100.0){ //in case of some error where reading is greater than 100
         reading = 100.0;
     }
-    //repeat for engagement
+    // repeat for engagement
     if(engagement <= 85.0){
         engagement += 15.0;
     }
