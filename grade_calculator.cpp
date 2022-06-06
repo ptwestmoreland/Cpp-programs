@@ -56,27 +56,27 @@ int main() {
 
    //exam variables needed:
     double exam_score_total = 0.0; //to hold sum of exams while in loop
-    int number_of_exams = 0.0; //keeps track of total number of exams for averaging
+    int number_of_exams = 0; //keeps track of total number of exams for averaging
 
     // Variable needed to hold the final:
-    double final_exam_score = 0; //there is only one grade here, so we dont need to average it
+    double final_exam_score = 0.0; //there is only one grade here, so we dont need to average it
 
     //variables for homeworks:
-    double homework_score_total = 0; //holds the running total for homeworks in loop
+    double homework_score_total = 0.0; //holds the running total for homeworks in loop
     int number_of_homework_scores = 0; //holds number of homeworks for average
 
     //lab variables, these are graded as 100 or 0 only
-    double total_lw_score = 0;
+    double total_lw_score = 0.0;
     int number_of_lw = 0;
 
     //zybooks reading variables:
 
-    double total_read_score = 0;
+    double total_read_score = 0.0;
     int num_reading_scores = 0;
 
     //engagement score variables, this is akin to a participation grade
 
-    double total_engage_score = 0;
+    double total_engage_score = 0.0;
     int num_engage_scores = 0;
 
 
@@ -101,11 +101,10 @@ int main() {
             homework_score_total = score + homework_score_total; //keeps track of total hw grade
             number_of_homework_scores++; //tracks number of hw entries throughout loop
         } else if (category == "lw") {
-            if(score == 1){ //inner if statement
+            if( (score - 1.0) < 0.01 ){ //== comparison not good for doubles
                total_lw_score = total_lw_score + 100; //give 100 to total score for each complete lw
                number_of_lw++; //tracks lw
-
-            }
+             }
             else{
                 total_lw_score = total_lw_score + 0; //adds 0 for each incomplete
                 number_of_lw++;
@@ -125,7 +124,7 @@ int main() {
     } //end file processing loop
 
 
-    /*averages are computed as total divided by the number of entries
+    /* averages are computed as total divided by the number of entries
     if a student has no entries for some category, then
     we will have a divide by zero error. So each tracking
     variable that keeps up with the number of entries, must be
@@ -149,11 +148,11 @@ int main() {
 
     //computing averages for each category
 
-    double exam_average = 0;
-    double hw_average = 0;
-    double lw_average = 0;
-    double reading = 0;
-    double engagement = 0;
+    double exam_average = 0.0;
+    double hw_average = 0.0;
+    double lw_average = 0.0;
+    double reading = 0.0;
+    double engagement = 0.0;
     //exam_av = (the total exam 1, 2 sum + final) / 3 tests
     //reading and engage have 15% added on up to 100
     exam_average = (exam_score_total + final_exam_score) / 3; //always 3
