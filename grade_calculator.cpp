@@ -238,8 +238,7 @@ int main() {
         weighted_total, final_letter_grade);
 }
 
-// These methods are already implemented for you
-// You should not need to modify them
+//function definitions
 
 void print_instructions() {
     cout << "enter grades as <category> <score>" << endl;
