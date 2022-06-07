@@ -9,3 +9,6 @@ This project reads input and classifies the input grade by category and score. T
 
 2. Boolean functions:
 This project contains several functions that output truth tables for common logical operations when called from main. The final two functions compute the true/false value of a boolean expression given three inputs and display the result.
+
+3. Boolean expressions:
+With a random truth table involving 3 variables I used the sum of products method to develop its logic function. I created a C++ function that takes as arguments 3 boolean variables and computes the value of the logic function's true/false given the three inputs. I did not reduce the logic function because I wanted more practice in working with boolean operators in C++. 
