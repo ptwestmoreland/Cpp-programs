@@ -18,3 +18,6 @@ This program takes in to numbers that represent the endpoints of an interval. Th
 
 5. Random fahrenhiet number to celsius equivalent:
 This file loads a vector with fahrenheit temperature values and stores the celsius equivalent in another vector. The maximum and minimum values are then found.
+
+6. Password program:
+This file takes in a user input password as a string, the string then has certain characters swapped to make an updated version. This string is then reversed. The two updated password strings are appended together and output to the screen. 
