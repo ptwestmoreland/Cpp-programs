@@ -15,3 +15,6 @@ With a random truth table involving 3 variables I used the sum of products metho
 
 4. Mountains and Valleys:
 This program takes in to numbers that represent the endpoints of an interval. This interval is {a, b}. It confirms that 10 <= a <= b < 10000. It then determines if each number in the interval is a "mountain" or a "valley". A mountain is defined as a number such that, in the 2 digit case, digit1 < digit2 and a valley is defined as digit1 > digit2. A number can be neither a mountain nor a valley. The program makes use of multiple functions to classify each number in the interval as a mountain/valley/neither and keeps track of how many mountains or valleys there are on {a,b}. The output is then displayed. This program works by number slicing and comparing digits. It works on up to four digit numbers as the endpoint of the valid interval range, b,  is a maximum of 9999. 
+
+5. Random fahrenhiet number to celsius equivalent:
+This file loads a vector with fahrenheit temperature values and stores the celsius equivalent in another vector. The maximum and minimum values are then found.
