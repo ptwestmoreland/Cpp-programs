@@ -21,3 +21,6 @@ This file loads a vector with fahrenheit temperature values and stores the celsi
 
 6. Password program:
 This file takes in a user input password as a string, the string then has certain characters swapped to make an updated version. This string is then reversed. The two updated password strings are appended together and output to the screen. 
+
+7. cstring.cpp
+This program performs various tasks and operations on char arrays. One finds the size of the string without using the length function, another finds the index at which a character is first found and returns it, or it returns the size if the character isnt found. The third compares the equality of two input cstrings.
