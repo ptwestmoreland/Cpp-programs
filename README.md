@@ -24,3 +24,6 @@ This file takes in a user input password as a string, the string then has certai
 
 7. cstring.cpp
 This program performs various tasks and operations on char arrays. One finds the size of the string without using the length function, another finds the index at which a character is first found and returns it, or it returns the size if the character isnt found. The third compares the equality of two input cstrings.
+
+8. string calculator.cpp
+This is my largest and most complex project to date. It, with the user interface, allows the user to multiply or add any two integers and get the result, no matter their size. Overflow issues are taken care of with the string class. The UI prompts the user to enter two strings to operate on, with an operation string seperating them. Such as: 3 + 1. This will continue until q, quit, or ctrl+d is entered. This program has been tested with all sorts of test cases and has operated correctly for each one. The program, in a nutshell, performs addition/multiplication on each chararcter of a string by converting each character to a decimal number. Overflow is handled on a per digit basis. These numbers are then converted back to characters and placed in a string. This is repeated for the entire input strings. I compiled it on terminal with the most sensitive warning settings and recieved no warnings or errors.
