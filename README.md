@@ -31,3 +31,7 @@ This is my largest and most complex project to date. It, with the user interface
 8. Caesar Cipher
 
   This program defines a class called encode word. It then applies the caesar shift to some user input to shift the word by a hand set key of four. This key is easily set to some user input value but this was just for fun. Also, the class's public encode functions dont consider spaces in the input word but that is also easily ammenadable. Further, this doesn't need to be done utilizing OOP but I am new to programming and I wanted to get some practice in defining and working with classes/objects. 
+
+9. Temperature Queries: 
+
+This program uses reads user input from a file and validates the input. This valid input is added to a linked list of nodes. These nodes are inserted to the linked list in a specified order. Various other functions related to the linked list are defined within the code. 
