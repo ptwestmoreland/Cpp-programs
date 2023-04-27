@@ -35,3 +35,7 @@ This is my largest and most complex project to date. It, with the user interface
 9. Temperature Queries: 
 
 This program uses reads user input from a file and validates the input. This valid input is added to a linked list of nodes. These nodes are inserted to the linked list in a specified order. Various other functions related to the linked list are defined within the code. 
+
+10. Collatz sequence:
+
+This program computes and displays the famous collatz sequence starting from some user input integer.
