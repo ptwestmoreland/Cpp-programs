@@ -39,3 +39,23 @@ This program uses reads user input from a file and validates the input. This val
 10. Collatz sequence:
 
 This program computes and displays the famous collatz sequence starting from some user input integer.
+
+11. Coin Flip Simulation:
+
+This program simulates a coin being flipped a set amount of times. The number of trials is determined by the user. It could also be done using the binomial theorem but this was more interesting.
+
+12. Coin Flip Simulation with User Control:
+
+The above simulation was redone. The user now chooses when to flip the coin and when to stop vs just choosing an amount of flips and letting the program execute.
+
+13. Bulls and Cows
+
+This program uses digit slicing and vectors to play the mathematical code breaking game bulls and cows. Error checking and input validation is extensive.
+
+14. Swap 
+
+Uses pointers and a function to swap two values. 
+
+15. Decimal to Binary Converter: 
+
+Converts an input number into a 32 bit binary number with the divide by 2 method. This unsigned binary number is represented as a 32 bit array.
