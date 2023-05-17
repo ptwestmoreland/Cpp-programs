@@ -59,3 +59,15 @@ Uses pointers and a function to swap two values.
 15. Decimal to Binary Converter: 
 
 Converts an input number into a 32 bit binary number with the divide by 2 method. This unsigned binary number is represented as a 32 bit array.
+
+16. Random Vector with No Repeats:
+
+This program loads a random n digit vector with random values from 0 to 9. The loop structure forbids any repeated values from occuring in the vector. 
+
+17. Complex Number Calculator: 
+
+This program defines a class that can add or multiply two complex numbers and display the result. 
+
+18. Tic Tac Toe 
+
+This program allows the user to play tic tac toe with the computer on a 3x3 board. The computer does not make the best possible choice of where to place its "Os" but instead this is randomized. This leads to the computer being pretty bad at tic tac toe.  
