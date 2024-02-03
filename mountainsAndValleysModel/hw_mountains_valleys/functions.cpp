@@ -8,6 +8,8 @@ function works by digit slicing and checking for an iterative pattern. It works
 for numbers outside of the 10-9999 range and was tested with 8/9 digit
 integers */
 
+/* Currently in this course in 2024, do not use my code */
+
 
 #include <iostream>
 #include "functions.h"
