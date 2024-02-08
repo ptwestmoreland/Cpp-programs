@@ -71,3 +71,9 @@ This program defines a class that can add or multiply two complex numbers and di
 18. Tic Tac Toe 
 
 This program allows the user to play tic tac toe with the computer on a 3x3 board. The computer does not make the best possible choice of where to place its "Os" but instead this is randomized. This leads to the computer being pretty bad at tic tac toe.  
+
+19. Olympics results
+
+This program reads file input and output. It recieves data as a string line by line from a file that represents olympics results for a given event. 
+The data is in the form TIME, COUNTRY, JERSEY NUMBER, LAST NAME. This data is then trimmed for leading white space, stripped, validated, and placed
+in parallel arrays. The rankings of the full results are then computed and displayed.
