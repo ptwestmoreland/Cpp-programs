@@ -77,3 +77,6 @@ This program allows the user to play tic tac toe with the computer on a 3x3 boar
 This program reads file input and output. It recieves data as a string line by line from a file that represents olympics results for a given event. 
 The data is in the form TIME, COUNTRY, JERSEY NUMBER, LAST NAME. This data is then trimmed for leading white space, stripped, validated, and placed
 in parallel arrays. The rankings of the full results are then computed and displayed.
+
+20. Trim white space
+This function trims leading and trailing white space from a C string and leaves inner whitespace intact.
