@@ -14,7 +14,7 @@ This project contains several functions that output truth tables for common logi
 With a random truth table involving 3 variables I used the sum of products method to develop its logic function. I created a C++ function that takes as arguments 3 boolean variables and computes the value of the logic function's true/false given the three inputs. I did not reduce the logic function because I wanted more practice in working with boolean operators in C++. 
 
 4. Mountains and Valleys:
-This program takes in to numbers that represent the endpoints of an interval. This interval is {a, b}. It confirms that 10 <= a <= b < 10000. It then determines if each number in the interval is a "mountain" or a "valley". A mountain is defined as a number such that, in the 2 digit case, digit1 < digit2 and a valley is defined as digit1 > digit2. A number can be neither a mountain nor a valley. The program makes use of multiple functions to classify each number in the interval as a mountain/valley/neither and keeps track of how many mountains or valleys there are on {a,b}. The output is then displayed. This program works by number slicing and comparing digits. It works on up to four digit numbers as the endpoint of the valid interval range, b,  is a maximum of 9999. 
+This program takes in to numbers that represent the endpoints of an interval. This interval is {a, b}. It confirms that 10 <= a <= b < 10000. It then determines if each number in the interval is a "mountain" or a "valley". A mountain is defined as a number such that, in the 2 digit case, digit1 < digit2 and a valley is defined as digit1 > digit2. A number can be neither a mountain nor a valley. The program makes use of multiple functions to classify each number in the interval as a mountain/valley/neither and keeps track of how many mountains or valleys there are on {a,b}. The output is then displayed. This program works by number slicing and comparing digits. It works on up to four digit numbers as the endpoint of the valid interval range, b,  is a maximum of 9999 but it can classify any n digit number as a mountain or valley.
 
 5. Random fahrenhiet number to celsius equivalent:
 This file loads a vector with fahrenheit temperature values and stores the celsius equivalent in another vector. The maximum and minimum values are then found.
@@ -80,3 +80,6 @@ in parallel arrays. The rankings of the full results are then computed and displ
 
 20. Trim white space
 This function trims leading and trailing white space from a C string and leaves inner whitespace intact.
+
+21. Seam Carving
+This file processes PPM files by resizing them. It only allows the reduction of height and width of an image. The PPM files are treated as a 2D array of pixels. The pixel struct is defined in the header file. 
