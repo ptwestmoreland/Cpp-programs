@@ -1,14 +1,6 @@
-/******************************************************************************
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <iostream>
 #include <string>
-using namespace std;
 
 /* this class allows a user to send in an input word and have it encoded via the Caesar cipher
 
@@ -72,11 +64,11 @@ int main()
 {
     // testing 
     string userIn = "";  
-    cin >> userIn;
+    std::cin >> userIn;
     encoded_word practice_word;
      
      string x = practice_word.encode_word(userIn);
-     cout << x << endl;
+     std::cout << x << std::endl;
      
      
 
