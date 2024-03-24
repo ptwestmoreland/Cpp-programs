@@ -81,5 +81,8 @@ in parallel arrays. The rankings of the full results are then computed and displ
 20. Trim white space
 This function trims leading and trailing white space from a C string and leaves inner whitespace intact.
 
-21. Seam Carving
-This file processes PPM files by resizing them. It only allows the reduction of height and width of an image. The PPM files are treated as a 2D array of pixels. The pixel struct is defined in the header file. 
+21. Image processing - Seam Carving
+This file processes PPM files by resizing them with seam carving. It only allows the reduction of height and width of an image. The PPM files are treated as a 2D array of pixels. The pixel struct is defined in the header file and a greedy algorithm is used to erase seams.
+
+22. Dungeon Crawler
+ This program is an exercise in 2D arrays and dynamic memory. It allows the user to play dungeon crawler. The game logic is implemented without graphics. The user enters a dnugeon name and the number of levels. From there a map is created and loaded from a text file. The user then plays until he quits, is taken out by a monster, or reaches the next level. When the user reaches the door for the final dungeon/level under the selected category, the game is over. The logic controls resizing the map and making 4 copies of the original, monster moves, player moves, and map creation and deletion. There are map files included to play with.
